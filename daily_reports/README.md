@@ -5,29 +5,26 @@
 # [20260723](./202607/20260723.md)
 ## 📌 今日概况
 
-今日共检索候选论文 14 篇；关键词+LLM 智能匹配遥感交叉论文 1 篇；最终纳入日报 4 篇。
+今日共检索候选论文 14 篇；关键词+LLM 智能匹配遥感交叉论文 1 篇；最终纳入日报 1 篇。
 
-今日遥感AI研究聚焦于多视角与多模态融合。无人机单目深度估计方法DAPM可适应任意高度、俯仰、翻滚及视场角，提升低空遥感灵活性。高光谱领域出现两大进展：HyperImageNet构建大规模高空间分辨率分类基准，推动语义与实例分割；另有一项光谱-空间协同网络用于高光谱显著性目标检测，兼顾轻量化与光照鲁棒性。此外，针对大视觉语言模型的对抗攻击研究GeoThreat揭示了遥感图像解释中的安全漏洞。
+今日遥感AI研究聚焦于大视觉语言模型的安全性问题，提出针对遥感图像解释的可迁移目标对抗攻击方法GeoThreat。该工作揭示了当前大模型在遥感领域应用中的脆弱性，为提升模型鲁棒性提供了新视角。
 
 ## ✨ 今日亮点
 
-- 无人机单目深度估计适应任意视角与高度
-- 大规模高光谱分类基准推动语义分割
-- 遥感大模型对抗攻击揭示安全漏洞
+- 提出针对遥感大视觉语言模型的可迁移目标对抗攻击
+- 揭示遥感图像解释中模型的安全隐患
+- 为遥感AI模型鲁棒性研究提供新方向
 
 ## 🗂 今日文章列表
 
 | 标题 | 作者 | 单位 | 一句话概括 | Issue |
 |---|---|---|---|---|
-| [20260723] DAPM: UAV Monocular Depth Estimation from Any Height, Pitch, Roll and FOV | Ling Tong, Diao Wenhui, Feng Yingchao, Bi Hanbo, Hou Zhongyan, Sun Xian | Accordingly, research on low-altitude remote sensing imagery；mation Research Institute, Chinese Academy of Sciences, Beijing 100190；China, also with the School of Electronic, Electrical and Communication；Engineering, University of Chinese Academy of Sciences, Beijing 100190；China, also with the University of Chinese Academy of Sciences, Beijing；China, and also with the Key Laboratory of Target Cognition；stitute, Chinese Academy of Sciences, Beijing 100190, China ( | DAPM实现无人机任意高度、俯仰、翻滚及FOV下的单目深度估计 | [#9](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/9) |
-| [20260723] HyperImageNet: A Large-Scale High-Spatial Resolution Hyperspectral Imagery Classification Benchmark | Zeng Chuguang, Li Jingtao, Liu Yinhe, Zhong Yanfei | Wuhan University Wuhan University Wuhan University Wuhan University | HyperImageNet提供大规模高空间分辨率高光谱分类基准 | [#10](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/10) |
-| [20260723] GeoThreat: Transferable Targeted Adversarial Attacks on Large Vision-Language Models for Remote Sensing Image Interpretation | Fu Yimin, Bai Yuefeng, Pan Baicheng, Liu Zhunga, Michael K. Ng | Department of Mathematics, Hong Kong Baptist University, Hong Kong, China (；School of Automation, Northwestern Polytechnical University, Xi'an,, China ( | GeoThreat提出面向遥感大视觉语言模型的可迁移定向对抗攻击 | [#11](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/11) |
-| [20260723] Spectral-Spatial Synergistic Guided Network for Hyperspectral Salient Object Detection | Peng Yanyan, Xu Tingfa, Xiao Yao, Liu Peifu, Bai Shuyan, Xu Fengxiang, Li Jianan | Chongqing Innovation Center, Beijing Institute of Technology, Chongqing, China；School of Optics and Photonics, Beijing Institute of Technology, Beijing, China (；School of Optics and Photonics, Beijing Institute of Technology, Beijing, China；the Key Laboratory of Photoelectronic Imaging Technology and System, Ministry of Education of China, Beijing, China ( | 光谱-空间协同网络实现轻量化高光谱显著性目标检测 | [#12](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/12) |
+| [20260723] GeoThreat: Transferable Targeted Adversarial Attacks on Large Vision-Language Models for Remote Sensing Image Interpretation | Fu Yimin, Bai Yuefeng, Pan Baicheng, Liu Zhunga, Michael K. Ng | Department of Mathematics, Hong Kong Baptist University, Hong Kong, China (；School of Automation, Northwestern Polytechnical University, Xi'an,, China ( | GeoThreat方法实现针对遥感大视觉语言模型的可迁移目标对抗攻击。 | [#11](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/11) |
 
 ## 🔎 观察
 
-- 高光谱遥感正从分类向细粒度检测与分割演进
-- 无人机视角多样性驱动深度估计方法向通用化发展
+- 遥感领域大模型安全研究正从通用领域向专业场景迁移
+- 对抗攻击方法需兼顾遥感图像的特殊性与模型可解释性
 
 ---
 
