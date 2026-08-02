@@ -2,6 +2,41 @@
 
 最近三天日报（最新在前）：
 
+# [20260802](./202608/20260802.md)
+## 📌 今日概况
+
+今日共检索候选论文 76 篇；关键词+LLM 智能匹配遥感交叉论文 6 篇；最终纳入日报 6 篇。
+
+今日遥感AI研究聚焦多模态与生成式技术在地球观测中的应用，涵盖灾害响应、立体匹配、开放词汇基准及超高分辨率推理。同时，大模型安全与扩散蒸馏等基础方法亦有进展，显示出遥感AI与通用AI技术的深度融合趋势。
+
+## ✨ 今日亮点
+
+- 多模态大模型赋能灾害响应与超高分辨率遥感推理
+- 生成式AI提升多日期卫星影像立体匹配鲁棒性
+- 开放词汇基准与安全对齐方法推动模型实用化
+
+## 🗂 今日文章列表
+
+| 标题 | 作者 | 单位 | 一句话概括 | Issue |
+|---|---|---|---|---|
+| [20260730] A Systems Engineering Framework for Vision-Language-Enabled UAV Triage and Disaster Response | Saha Swapnil, Bhuvan Rajanasiriyur Jagadeesha, Patnaik Karishma, Majumdar Neelakshi | University of Arkansas, Fayetteville, Arkansas, 72701, USA；University of Michigan-Dearborn, Dearborn, Michigan, 48128, USA；Graduate Research Assistant, Department of Mechanical Engineering；Graduate Research Assistant, Department of Electrical and Computer Engineering；Assistant Professor, Department of Electrical and Computer Engineering；Assistant Professor, Department of Mechanical Engineering | 提出系统工程框架，集成视觉语言模型与无人机协同，优化灾害响应流程。 | [#19](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/19) |
+| [20260729] SeasonStereo: Robust Dense Stereo Matching for Multi-Date Satellite Imagery via Generative AI | Díaz-Laureano Álvaro, Marí Roger, Masquil Elías, Arias Pablo, Facciolo Gabriele | Dept. of Engineering, Universitat Pompeu Fabra, Barcelona, Spain；Université Paris-Saclay, CNRS, ENS Paris-Saclay, Centre Borelli, France；Institut Universitaire de France | 利用生成式AI增强多日期卫星影像的立体匹配，应对季节变化带来的挑战。 | [#20](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/20) |
+| [20260729] On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment | Guo Yongjian, Ma Wanlun, Shen Lingyu, Xiao Xi, Wen Sheng | Tsinghua University；Swinburne University of Technology | 采用策略内蒸馏与路由机制，提升大语言模型对模板变体的安全鲁棒性。 | [#21](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/21) |
+| [20260729] OVEarth-Bench: Evaluating Category Breadth and Query Diversity for Open-Vocabulary Earth Observation | Li Kaiyu, Xin Zepeng, Jiang Zixuan, Fu Jing, Xue Lanxuan, Zhang Lingyu, Cao Xiangyong | Xi’an Jiaotong University | 构建开放词汇地球观测基准，评估类别广度与查询多样性下的零样本定位能力。 | [#22](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/22) |
+| [20260728] Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing | Wang Fengxiang, Huang Jiangnan, Chen Mingshuo, Li Yueying, Shi Yang, Luo Junwei, Wang Haoyu, Li Yansheng, Zhang Jing, Zhao Haiyan, Yang Wenjing | National University of Defense Technology；Wuhan University；Tsinghua University | 提出多工具视觉推理方法，用于超高分辨率遥感影像的精细理解与分析。 | [#23](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/23) |
+| [20260727] Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation | Li Bingnan, Wang Haozhe, Xiong Haozhong, Wu Fangtai, Yu Jinpeng, Shi Yang, Liu Jiaming, Huang Ruihua | Qwen Business Unit of Alibaba | 重新思考无分类器引导在策略内扩散蒸馏中的作用，优化生成质量与效率。 | [#24](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/24) |
+
+## 🔎 观察
+
+- 遥感领域正加速引入视觉语言模型，推动从传统解译向语义推理转变。
+- 生成式AI与蒸馏技术成为提升遥感数据利用效率的关键路径，但安全与泛化仍需关注。
+
+---
+
+Powered by OpenClaw🦞
+
+---
+
 # [20260726](./202607/20260726.md)
 ## 📌 今日概况
 
@@ -66,24 +101,6 @@ Powered by OpenClaw🦞
 
 - 多模态大语言模型正从静态图像理解向动态视频与导航任务扩展
 - 模型安全性与可解释性成为遥感AI应用落地的关键挑战
-
----
-
-Powered by OpenClaw🦞
-
----
-
-# [20260724](./202607/20260724.md)
-## 📌 今日概况
-
-今日共检索候选论文 0 篇；关键词+LLM 智能匹配遥感交叉论文 0 篇；最终纳入日报 0 篇。
-
-当日未检索到符合条件并纳入日报的论文。
-
-## 🔎 观察
-
-- 当日无成功纳入论文，建议优先检查候选筛选结果与失败原因。
-- 若连续出现空日报，应复核 arXiv 日期窗口、关键词配置与 LLM 筛选输出。
 
 ---
 
