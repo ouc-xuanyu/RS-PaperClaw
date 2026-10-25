@@ -2,6 +2,72 @@
 
 最近三天日报（最新在前）：
 
+# [20261025](./202610/20261025.md)
+## 📌 今日概况
+
+今日共检索候选论文 85 篇；关键词+LLM 智能匹配遥感交叉论文 3 篇；最终纳入日报 3 篇。
+
+今日论文聚焦遥感与地球观测中的多模态基础模型与视觉语言模型。综述系统梳理数据驱动的遥感视觉语言模型进展，强调数据构建与微调策略；海洋基础模型YingLan面向异构观测统一表征，体现领域专用基础模型趋势；灾害问答研究提出证据引导的双系统路由，探索视觉语言模型在应急场景的可靠推理。整体呈现从通用模型向领域适配与任务可信方向发展的态势。
+
+## ✨ 今日亮点
+
+- 遥感视觉语言模型综述系统梳理数据驱动方法与微调策略
+- YingLan构建多模态海洋基础模型统一异构观测表征
+- 灾害问答引入证据引导双系统路由提升视觉推理可靠性
+
+## 🗂 今日文章列表
+
+| 标题 | 作者 | 单位 | 一句话概括 | Issue |
+|---|---|---|---|---|
+| [20261022] Data-Driven Vision-Language Models for Remote Sensing: A Survey | Zhou Yue, Zhao Shujun, Yang Xue, Li Ruigang, Zhang Tianwen, Lan Mengcheng, Chen Chaofeng, Ma Lingfei, He Hongjie, Li Jonathan | School of Automation and Intelligent Sensing, Shanghai Jiao Tong University, Shanghai, China (；School of GeoAI and Hindon STAI Institute, Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, China (；Southeast University, China；Southwest Jiaotong University, China；Nanyang Technological University, Singapore；Wuhan University, China；University of Waterloo, Cananda | 系统综述数据驱动遥感视觉语言模型，涵盖数据集构建、模型微调与评测。 | [#71](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/71) |
+| [20261021] YingLan: A Multimodal Ocean Foundation Model for Unified Representation Learning from Heterogeneous Observations | Jia Sen, Wei Siqi, Wang Junyu, Lv Zijun, Liu Pan, Xu Meng, Fu Xiyou, Sun Yuxi, Liu Qiang, Zhang Shuyu, Mu Lin | College of Computer Science and Software Engineering, Shenzhen University；College of Life Sciences and Oceanography, Shenzhen University | 提出YingLan多模态海洋基础模型，统一学习异构观测的时空表征。 | [#72](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/72) |
+| [20261021] DisasterRoute: Evidence-Guided Dual-System Routing for Visual Disaster Question Answering | Zhang Tan, Deng Xing, Zhang Lu, Zhu Xiaofeng, Hu Ping | Hainan University；existing research primarily focuses on improv- Headscarp | 面向无人机灾害视觉问答，设计证据引导的双系统路由推理框架。 | [#73](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/73) |
+
+## 🔎 观察
+
+- 领域专用基础模型正从通用架构转向异构观测统一表征，海洋与遥感场景同步推进。
+- 视觉语言模型在灾害应急中更强调证据引导与路由机制，以提升推理可信度。
+
+---
+
+Powered by OpenClaw🦞
+
+---
+
+# [20261011](./202610/20261011.md)
+## 📌 今日概况
+
+今日共检索候选论文 110 篇；关键词+LLM 智能匹配遥感交叉论文 5 篇；最终纳入日报 5 篇。
+
+今日论文聚焦遥感基础模型与多模态智能处理，涵盖场景分类、图像复原、SAR重建、公平性评估与自监督表征学习。研究趋势显示，大语言模型与视觉语言模型正加速融入遥感解译，同时扩散模型、智能体机制被用于复杂退化复原与压缩感知重建。公平性基准与时间自监督架构的出现，表明社区开始关注模型鲁棒性、生态偏差与时空表征质量，整体向更可靠、可解释的遥感AI系统演进。
+
+## ✨ 今日亮点
+
+- 多模态大模型与智能体机制加速融入遥感场景分类与图像复原任务
+- 扩散模型与展开优化结合，推动压缩SAR成像重建新范式
+- 遥感基础模型公平性基准与时间自监督表征学习受到关注
+
+## 🗂 今日文章列表
+
+| 标题 | 作者 | 单位 | 一句话概括 | Issue |
+|---|---|---|---|---|
+| [20261006] RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models | Si Dongchen, Wang Di, Xu Mingzhen, Zhang Jing, Du Bo, Zhang Liangpei | School of Computer Science, Wuhan University, Wuhan, China (；State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan, China ( | 提出RSJEV方法，利用多模态大语言模型进行判别性遥感场景分类。 | [#65](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/65) |
+| [20261005] EORestore-Agent: Fidelity-Guided Agentic Restoration of Remote Sensing Images with Composite Degradations | Qi Heli, Zhou Zeqi, Yi Jingjun, Liu Kunyi, Lihe Ziyang, Wang Junjue, Yoshie Osamu, Yokoya Naoto | the Graduate School of Information, Production and Systems, Waseda University, Kitakyushu, Fukuoka 808-, Japan；the Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Chiba 277-, Japan；the Informatics Institute, University of Amsterdam, Amsterdam XH, The Netherlands；Wuhan University, Wuhan, China | 构建EORestore-Agent，以保真度引导智能体复原复合退化的遥感图像。 | [#66](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/66) |
+| [20261005] Diffusion Meets Unrolling: Compressive SAR Image Reconstruction with Interleaved Learned Corrections | Pappas Odysseas, Andrew C. M. Austin, Mayo Perla, Golbabaee Mohammad, Achim Alin | VI Labs, School of Computer Science, University of Bristol；School of Electrical, Electronic, and Mechanical Engineering, University of Bristol；School of Engineering Mathematics and Technology, University of Bristol | 结合扩散模型与展开优化，实现压缩SAR图像的交错学习校正重建。 | [#67](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/67) |
+| [20261005] FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models | Md Aminur Hossain, Vaghasiya Omkumar, Rajeev Ranjan Dwivedi, Kurmi Vinod, Banerjee Biplab | Biplab Banerjee 2；Space Applications Centre, ISRO, Ahmedabad, India；Indian Institute of Technology Bombay, India；Indian Institute of Science Education and Research Bhopal | 发布FairRSFM，提供生物群系感知基准与去偏框架评估遥感基础模型。 | [#68](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/68) |
+| [20261005] T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations | Peng Bowen, Liu Li, Liu Yongxiang, Li Weijie, Zhou Jie, Liu Zhen | National University of Defense Technology, Changsha, China | 提出T-JEPA，基于时间联合嵌入预测架构学习遥感时空表征。 | [#69](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/69) |
+
+## 🔎 观察
+
+- 多模态大模型正从通用解译向判别性场景分类渗透，但推理效率与领域适配仍是瓶颈。
+- 遥感基础模型评估开始纳入生态公平性维度，提示数据偏差可能影响下游任务可靠性。
+
+---
+
+Powered by OpenClaw🦞
+
+---
+
 # [20261004](./202610/20261004.md)
 ## 📌 今日概况
 
@@ -65,75 +131,6 @@
 
 - On-Policy Distillation正从语言模型向多模态、扩散与流模型快速扩散，成为后训练与压缩的通用范式。
 - 遥感AI研究同时追求基础模型规模化与可解释性，高光谱、灾害与视频问答等任务呈现多模态融合趋势。
-
----
-
-Powered by OpenClaw🦞
-
----
-
-# [20260830](./202608/20260830.md)
-## 📌 今日概况
-
-今日共检索候选论文 70 篇；关键词+LLM 智能匹配遥感交叉论文 5 篇；最终纳入日报 5 篇。
-
-今日遥感AI研究聚焦于基础模型与自监督方法的创新应用。Tessera嵌入的时间敏感性分析揭示了其在土地覆盖动态监测中的潜力；HyDiff-EI提出无需预训练数据的自监督高光谱图像修复框架；Planetary Prediction Engine展示了基础模型嵌入在自主地理空间预测中的能力。此外，半监督视觉语言模型适应和VLM变化推理的错误恢复机制也受到关注，整体趋势偏向于提升模型的泛化能力与自动化水平。
-
-## ✨ 今日亮点
-
-- 基础模型嵌入在遥感时序分析中展现新应用。
-- 自监督扩散模型推动高光谱图像修复发展。
-- 视觉语言模型在半监督与推理纠错中持续优化。
-
-## 🗂 今日文章列表
-
-| 标题 | 作者 | 单位 | 一句话概括 | Issue |
-|---|---|---|---|---|
-| [20260827] Temporal Sensitivity Analysis of Tessera Embeddings | Guerrero-Viu Julia, López-Cifuentes Alex, Pérez-Villar Ignacio, Pacifici Fabio | Universidad de Zaragoza；Aragón Institute for Engineering Research；University of California；University of Maryland；Maxar Technologies | 分析Tessera嵌入的时间敏感性，用于土地覆盖动态制图。 | [#26](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/26) |
-| [20260827] Hyperspectral Diffusion Equivariant Imaging (HyDiff-EI): A Self-supervised Framework for Hyperspectral Image Inpainting | Li Shuo, Davies Mike, Yaghoobi Mehrdad | Institute for Digital Communications, School of self-supervised diffusion framework and does not require pre- Engineering, University of Edinburgh；School of Engineering, University of Edinburgh. remote sensing or RGB datasets；School of Engineering, University of Edinburgh | 提出自监督扩散等变框架，实现高光谱图像修复。 | [#27](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/27) |
-| [20260826] Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings | Ma Evelyn, Rama Kumar Pasumarthi, Shafin Kishwar, Sharma Mandar, Sun Mimi, Sadeghi Hamed, Dav M. Ebengo, Onesime Mbulayi, Solomakhin Rouslan, Wamburu John, Ogallo William, Walcott-Bryant Aisha, Chen Sanxing, Muslim Arbaaz, Mayer Yael, Ho Ronald, Lee Roy, Alcantara Ruth, Diack Abdoulaye, ..., Shetty Shravya | Google Research；Institut National de Recherche Biomédicale, Democratic Republic of Congo | 结合智能数据选择与基础模型嵌入，实现自主地理空间预测。 | [#28](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/28) |
-| [20260826] Semi-Supervised Adaptation of Vision-Language Models for Image Classification | Mohamed L. Mekhalfi, Mohamad M. Al Rahhal, Bazi Yakoub, Salah E. Khenfer, Shi Mingdeng, Zou Hua, Zuair Mansour | the Applied Computer Science Department, College of Applied Computer Science, King Saud University,, Riyadh, Saudi Arabia；the Computer Engineering Department, College of Computer and Information Sciences, King Saud University,, Riyadh, Saudi Arabia；the Key Laboratory of Tarim Oasis Agriculture, College of Information Engineering, Tarim University, Aral, China；School of Computer Science, Wuhan University,, Wuhan, China | 提出半监督适应方法，提升视觉语言模型图像分类性能。 | [#29](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/29) |
-| [20260824] SAVER: Selective Auditing of Verbal Evidence for Error Recovery in VLM Change Reasoning | Li Youdi | Panasonic Connect Co., Ltd. | 通过选择性审计言语证据，增强VLM变化推理的错误恢复。 | [#30](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/30) |
-
-## 🔎 观察
-
-- 基础模型嵌入正从静态特征提取转向动态时序分析，强化对地表变化的理解。
-- 自监督与半监督方法减少对标注数据的依赖，推动遥感AI在少样本场景落地。
-
----
-
-Powered by OpenClaw🦞
-
----
-
-# [20260802](./202608/20260802.md)
-## 📌 今日概况
-
-今日共检索候选论文 76 篇；关键词+LLM 智能匹配遥感交叉论文 6 篇；最终纳入日报 6 篇。
-
-今日遥感AI研究聚焦多模态与生成式技术在地球观测中的应用，涵盖灾害响应、立体匹配、开放词汇基准及超高分辨率推理。同时，大模型安全与扩散蒸馏等基础方法亦有进展，显示出遥感AI与通用AI技术的深度融合趋势。
-
-## ✨ 今日亮点
-
-- 多模态大模型赋能灾害响应与超高分辨率遥感推理
-- 生成式AI提升多日期卫星影像立体匹配鲁棒性
-- 开放词汇基准与安全对齐方法推动模型实用化
-
-## 🗂 今日文章列表
-
-| 标题 | 作者 | 单位 | 一句话概括 | Issue |
-|---|---|---|---|---|
-| [20260730] A Systems Engineering Framework for Vision-Language-Enabled UAV Triage and Disaster Response | Saha Swapnil, Bhuvan Rajanasiriyur Jagadeesha, Patnaik Karishma, Majumdar Neelakshi | University of Arkansas, Fayetteville, Arkansas, 72701, USA；University of Michigan-Dearborn, Dearborn, Michigan, 48128, USA；Graduate Research Assistant, Department of Mechanical Engineering；Graduate Research Assistant, Department of Electrical and Computer Engineering；Assistant Professor, Department of Electrical and Computer Engineering；Assistant Professor, Department of Mechanical Engineering | 提出系统工程框架，集成视觉语言模型与无人机协同，优化灾害响应流程。 | [#19](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/19) |
-| [20260729] SeasonStereo: Robust Dense Stereo Matching for Multi-Date Satellite Imagery via Generative AI | Díaz-Laureano Álvaro, Marí Roger, Masquil Elías, Arias Pablo, Facciolo Gabriele | Dept. of Engineering, Universitat Pompeu Fabra, Barcelona, Spain；Université Paris-Saclay, CNRS, ENS Paris-Saclay, Centre Borelli, France；Institut Universitaire de France | 利用生成式AI增强多日期卫星影像的立体匹配，应对季节变化带来的挑战。 | [#20](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/20) |
-| [20260729] On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment | Guo Yongjian, Ma Wanlun, Shen Lingyu, Xiao Xi, Wen Sheng | Tsinghua University；Swinburne University of Technology | 采用策略内蒸馏与路由机制，提升大语言模型对模板变体的安全鲁棒性。 | [#21](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/21) |
-| [20260729] OVEarth-Bench: Evaluating Category Breadth and Query Diversity for Open-Vocabulary Earth Observation | Li Kaiyu, Xin Zepeng, Jiang Zixuan, Fu Jing, Xue Lanxuan, Zhang Lingyu, Cao Xiangyong | Xi’an Jiaotong University | 构建开放词汇地球观测基准，评估类别广度与查询多样性下的零样本定位能力。 | [#22](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/22) |
-| [20260728] Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing | Wang Fengxiang, Huang Jiangnan, Chen Mingshuo, Li Yueying, Shi Yang, Luo Junwei, Wang Haoyu, Li Yansheng, Zhang Jing, Zhao Haiyan, Yang Wenjing | National University of Defense Technology；Wuhan University；Tsinghua University | 提出多工具视觉推理方法，用于超高分辨率遥感影像的精细理解与分析。 | [#23](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/23) |
-| [20260727] Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation | Li Bingnan, Wang Haozhe, Xiong Haozhong, Wu Fangtai, Yu Jinpeng, Shi Yang, Liu Jiaming, Huang Ruihua | Qwen Business Unit of Alibaba | 重新思考无分类器引导在策略内扩散蒸馏中的作用，优化生成质量与效率。 | [#24](https://github.com/ouc-xuanyu/RS-PaperClaw/issues/24) |
-
-## 🔎 观察
-
-- 遥感领域正加速引入视觉语言模型，推动从传统解译向语义推理转变。
-- 生成式AI与蒸馏技术成为提升遥感数据利用效率的关键路径，但安全与泛化仍需关注。
 
 ---
 
